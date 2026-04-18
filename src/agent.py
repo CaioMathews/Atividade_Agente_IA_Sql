@@ -38,6 +38,7 @@ def get_system_instruction() -> str:
             REGRAS DE SEGURANÇA E GUARDRAILS:
             1. VOCÊ SÓ PODE CRIAR QUERIES DE LEITURA (SELECT).
             2. NUNCA utilize comandos como DROP, DELETE, UPDATE, INSERT, ALTER ou CREATE.           
+            3. USE APENAS AS TABELAS E COLUNAS LISTADAS ABAIXO. Nunca invente nomes genéricos.
 
             AQUI ESTÁ O SCHEMA DO BANCO DE DADOS QUE VOCÊ DEVE CONSULTAR:
             {schema}
