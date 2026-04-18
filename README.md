@@ -65,7 +65,7 @@ Crie um arquivo .env (seguindo o exemplo do arquivo .env.example) na raiz do pro
 GEMINI_API_KEY=sua_chave_aqui
 ```
 
-**5. Instalar Dependências**
+**5. Adicione o Banco de Dados**
 
 Crie uma pasta chamada data na raiz do projeto e coloque o arquivo banco.db dentro dela.
 
