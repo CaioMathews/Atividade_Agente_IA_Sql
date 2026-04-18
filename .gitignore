@@ -1,0 +1,16 @@
+# Ambientes Virtuais
+venv/
+.venv/
+env/
+
+.env
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+grafico_analise.png
+__pycache__/
+*.pyc
+
+.DS_Store
+Thumbs.db
