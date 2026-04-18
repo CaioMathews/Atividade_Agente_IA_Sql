@@ -3,6 +3,8 @@ from src.database import execute_read_query
 from src.utils import anonimizar_dados, gerar_grafico
 import pandas as pd
 
+pd.options.display.float_format = '{:.2f}'.format
+
 def executar_agente():
 
     print("🚀 Bem-vindo ao Agente Analista de E-commerce!")

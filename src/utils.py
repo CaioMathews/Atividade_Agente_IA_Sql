@@ -26,6 +26,8 @@ def gerar_grafico(df: pd.DataFrame, tipo_grafico: str, titulo: str = "Resultado 
     col_x = df.columns[0]
     col_y = df.columns[1]
     
+    df[col_x] = df[col_x].fillna("Sem Categoria").astype(str)
+    
     plt.figure(figsize=(10, 6))
     
     try:
